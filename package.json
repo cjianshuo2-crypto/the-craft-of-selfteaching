@@ -1,0 +1,21 @@
+{
+  "name": "the-craft-of-selfteaching-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "clean": "node scripts/clean.mjs",
+    "prepare:site": "node scripts/prepare-site.mjs",
+    "docs:dev": "npm run prepare:site && vitepress dev site",
+    "docs:build": "npm run prepare:site && vitepress build site",
+    "docs:preview": "vitepress preview site",
+    "lint": "node scripts/lint.mjs",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "vitepress": "2.0.0-alpha.20"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

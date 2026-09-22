@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" role="img" aria-labelledby="title">
+  <title id="title">自学是门手艺</title>
+  <rect width="40" height="40" rx="10" fill="#b45309"/>
+  <path d="M9 11.5c4.2 0 7.6 1.1 10 3.4v16c-2.4-2.3-5.8-3.4-10-3.4v-16Zm22 0c-4.2 0-7.6 1.1-10 3.4v16c2.4-2.3 5.8-3.4 10-3.4v-16Z" fill="#fff8eb"/>
+  <path d="M20 14.9v16" stroke="#f2d6aa" stroke-width="1.5"/>
+</svg>

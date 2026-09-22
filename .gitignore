@@ -8,3 +8,10 @@ __pycache__
 **/__pycache__
 log.txt
 **/log.txt
+
+# Website dependencies and generated output
+node_modules/
+site/.vitepress/cache/
+site/.vitepress/dist/
+site/book/
+site/public/images/
