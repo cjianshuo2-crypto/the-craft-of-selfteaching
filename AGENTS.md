@@ -10,6 +10,9 @@ non-commercial, read-only VitePress website.
 - `markdown/`, `images/`, and root-level notebooks/files are upstream content.
   Do not edit them for site presentation.
 - `site/` contains authored website pages, VitePress configuration, and styles.
+- `site/.vitepress/theme/components/` contains interactive Vue UI components.
+- `site/.vitepress/theme/annotations/` contains annotation persistence and text
+  anchoring logic that can be tested independently of the UI.
 - `scripts/` contains deterministic site-generation and validation scripts.
 - `tests/` contains Node.js tests for generated content and site metadata.
 - `site/book/` and `site/public/images/` are generated and must not be committed.
@@ -27,6 +30,10 @@ non-commercial, read-only VitePress website.
   generated copy and must be limited to paths, links, or renderer compatibility.
 - Keep the author, upstream repository, and CC BY-NC-ND notice visible.
 - Do not add advertising, payments, tracking, or AI-generated book content.
+- Reader excerpts and notes are user-owned browser data. Store them locally,
+  never transmit them, and provide a human-readable export path.
+- Version persisted annotation data and tolerate invalid or older local data
+  without preventing the book from rendering.
 - Never commit credentials, tokens, passwords, build output, or dependency trees.
 
 ## Verification

@@ -9,6 +9,9 @@ const requiredFiles = [
   'site/.vitepress/config.mts',
   'site/.vitepress/theme/index.mts',
   'site/.vitepress/theme/custom.css',
+  'site/.vitepress/theme/components/annotation-tools.vue',
+  'site/.vitepress/theme/annotations/model.mjs',
+  'site/.vitepress/theme/annotations/dom.mjs',
   '.github/workflows/deploy-pages.yml',
 ]
 

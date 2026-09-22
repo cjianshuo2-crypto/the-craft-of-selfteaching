@@ -25,6 +25,15 @@ npm run docs:build
 copies under `site/book/`, and copies local assets to `site/public/images/`.
 Generated content is ignored by Git and can be recreated at any time.
 
+## Reader excerpts and annotations
+
+Readers can select text inside one paragraph, save an optional note, revisit the
+highlight from the annotation panel, edit or delete it, and export all notes as
+Markdown. The data is versioned and stored only in the current browser's
+`localStorage` under `selfteaching.annotations.v1`; it is never sent to a server.
+Clearing browser storage removes these notes, so readers should export Markdown
+when they need a durable or cross-device copy.
+
 ## Upstream updates
 
 ```sh
